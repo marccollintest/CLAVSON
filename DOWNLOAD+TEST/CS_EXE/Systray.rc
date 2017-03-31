@@ -1,0 +1,201 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGUE DIALOGEX 0, 0, 182, 81
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Test Systray Windows"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Réduire",ID_REDUIRE,125,60,50,14
+    PUSHBUTTON      "Quitter",IDCANCEL,7,60,50,14
+    LTEXT           "Programme de test pour voir comment utiliser la Systray de Windows...",
+                    IDC_STATIC,7,7,168,22
+    PUSHBUTTON      "icone_off",IDC_ICONE_OFF,99,31,76,16
+    PUSHBUTTON      "icone_on",IDC_ICONE_ON,7,31,76,16
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 210, 113
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "A propos de..."
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,92,145,14
+    LTEXT           "Ce programme a été développé par ",IDC_STATIC,7,7,196,
+                    10
+    LTEXT           "Marc Collin Informaticien Indépendant",IDC_COMPANY,7,17,
+                    196,11
+    LTEXT           "tel : +33 680667189",IDC_STATIC,7,30,196,9
+    LTEXT           "eMail : clavson@marccollin.com",IDC_STATIC,7,40,196,8,
+                    SS_CENTERIMAGE
+    LTEXT           "Web : www.marccollin.com",IDC_STATIC,7,50,188,8
+    LTEXT           "Copyright : 2004-2006 MarcColllinInformaticienIndependant",
+                    IDC_STATIC,7,63,186,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOGUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 106
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICONE_ON            ICON                    "icone.ico"
+IDI_ICONE_OFF           ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Activer ClavSon",             ID_ON
+        MENUITEM "Désactiver Clavson",          ID_OFF
+        MENUITEM "Quitter",                     IDCANCEL
+        MENUITEM "A propos de ...",             40005
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Image
+//
+
+IDR_IMAGE1              Image                   "Logo.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "CompanyName", "Marc Colllin Informaticien Indépendant"
+            VALUE "FileDescription", "Clavier Sonore"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Systray"
+            VALUE "LegalCopyright", "Copyright (C) 2004"
+            VALUE "OriginalFilename", "ClavSon.exe"
+            VALUE "ProductName", "ClavSon"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,132 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+A                       WAVE                    "sounds\\a.wav"
+B                       WAVE                    "sounds\\b.wav"
+C                       WAVE                    "sounds\\c.wav"
+D                       WAVE                    "sounds\\d.wav"
+E                       WAVE                    "sounds\\e.wav"
+F                       WAVE                    "sounds\\f.wav"
+G                       WAVE                    "sounds\\g.wav"
+H                       WAVE                    "sounds\\h.wav"
+I                       WAVE                    "sounds\\i.wav"
+J                       WAVE                    "sounds\\j.wav"
+K                       WAVE                    "sounds\\k.wav"
+L                       WAVE                    "sounds\\l.wav"
+M                       WAVE                    "sounds\\m.wav"
+N                       WAVE                    "sounds\\n.wav"
+O                       WAVE                    "sounds\\o.wav"
+P                       WAVE                    "sounds\\p.wav"
+Q                       WAVE                    "sounds\\q.wav"
+R                       WAVE                    "sounds\\r.wav"
+S                       WAVE                    "sounds\\s.wav"
+T                       WAVE                    "sounds\\t.wav"
+U                       WAVE                    "sounds\\u.wav"
+V                       WAVE                    "sounds\\v.wav"
+W                       WAVE                    "sounds\\w.wav"
+X                       WAVE                    "sounds\\x.wav"
+Y                       WAVE                    "sounds\\y.wav"
+Z                       WAVE                    "sounds\\z.wav"
+OK                      WAVE                    "sounds\\ok.wav"
+BYE                     WAVE                    "sounds\\bye.wav"
+UN                      WAVE                    "sounds\\1.wav"
+DEUX                    WAVE                    "sounds\\2.wav"
+TROIS                   WAVE                    "sounds\\3.wav"
+QUATRE                  WAVE                    "sounds\\4.wav"
+CINQ                    WAVE                    "sounds\\5.wav"
+SIX                     WAVE                    "sounds\\6.wav"
+SEPT                    WAVE                    "sounds\\7.wav"
+HUIT                    WAVE                    "sounds\\8.wav"
+NEUF                    WAVE                    "sounds\\9.wav"
+ZERO                    WAVE                    "sounds\\0.wav"
+CC                      WAVE                    "sounds\\CC.wav"
+ET                      WAVE                    "sounds\\et.wav"
+EST                     WAVE                    "sounds\\est.wav"
+PLUS                    WAVE                    "sounds\\plus.wav"
+MOINS                   WAVE                    "sounds\\moins.wav"
+ETOILE                  WAVE                    "sounds\\etoile.wav"
+SLASH                   WAVE                    "sounds\\slash.wav"
+EGAL                    WAVE                    "sounds\\egal.wav"
+VIRGULE                 WAVE                    "sounds\\virgule.wav"
+PVIRGULE                WAVE                    "sounds\\pvirgule.wav"
+PEXCLAMATION            WAVE                    "sounds\\pexclamation.wav"
+PINTERROGATION          WAVE                    "sounds\\pinterrogation.wav"
+POINT                   WAVE                    "sounds\\point.wav"
+2POINTS                 WAVE                    "sounds\\2points.wav"
+ESPACE                  WAVE                    "sounds\\espace.wav"
+APOSTROPHE              WAVE                    "sounds\\apostrophe.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICONE_OFF           ICON                    "icon1.ico"
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

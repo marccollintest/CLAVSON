@@ -1,0 +1,81 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS_DLL", "CS_DLL\CS_DLL.vcproj", "{F0756EFB-5472-4188-966D-ACFABA513370}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CS_install", "CS_install\CS_install.vdproj", "{E2EF3B5C-0311-4B2B-A9B6-0643092A7123}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clavson", "clavson\clavson.vcproj", "{26B4E2C3-6F87-4D61-95F2-343571A59866}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSRegister", "CSRegister\CSRegister.vcproj", "{F9E95594-9467-4ACD-BB03-186FF76FB1C2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS_DLL_FR", "CS_DLL_FR\CS_DLL_FR.vcproj", "{C767E0EA-6A30-4692-8735-2099AAC20B57}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS_DLL_EN", "CS_DLL_EN\CS_DLL_EN.vcproj", "{A22AE53B-1F4D-43BC-9D69-30540DB9C2EF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectName0 = \u0022$/clavson\u0022,\u0020TTAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SolutionUniqueID = {907B68C1-2B6B-4D4A-A441-97D29E72E9EB}
+		SccProjectUniqueName1 = clavson\\clavson.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = clavson\\
+		SccProjectUniqueName2 = CS_DLL\\CS_DLL.vcproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = CS_DLL\\
+		SccProjectUniqueName3 = CS_install\\CS_install.vdproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = CS_install\\
+		SccProjectUniqueName4 = CSRegister\\CSRegister.vcproj
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = CSRegister\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F0756EFB-5472-4188-966D-ACFABA513370}.Debug.ActiveCfg = Debug|Win32
+		{F0756EFB-5472-4188-966D-ACFABA513370}.Debug.Build.0 = Debug|Win32
+		{F0756EFB-5472-4188-966D-ACFABA513370}.Release.ActiveCfg = Release|Win32
+		{F0756EFB-5472-4188-966D-ACFABA513370}.Release.Build.0 = Release|Win32
+		{E2EF3B5C-0311-4B2B-A9B6-0643092A7123}.Debug.ActiveCfg = Debug
+		{E2EF3B5C-0311-4B2B-A9B6-0643092A7123}.Release.ActiveCfg = Release
+		{26B4E2C3-6F87-4D61-95F2-343571A59866}.Debug.ActiveCfg = Debug|Win32
+		{26B4E2C3-6F87-4D61-95F2-343571A59866}.Debug.Build.0 = Debug|Win32
+		{26B4E2C3-6F87-4D61-95F2-343571A59866}.Release.ActiveCfg = Release|Win32
+		{26B4E2C3-6F87-4D61-95F2-343571A59866}.Release.Build.0 = Release|Win32
+		{F9E95594-9467-4ACD-BB03-186FF76FB1C2}.Debug.ActiveCfg = Debug|Win32
+		{F9E95594-9467-4ACD-BB03-186FF76FB1C2}.Release.ActiveCfg = Release|Win32
+		{C767E0EA-6A30-4692-8735-2099AAC20B57}.Debug.ActiveCfg = Debug|Win32
+		{C767E0EA-6A30-4692-8735-2099AAC20B57}.Debug.Build.0 = Debug|Win32
+		{C767E0EA-6A30-4692-8735-2099AAC20B57}.Release.ActiveCfg = Release|Win32
+		{C767E0EA-6A30-4692-8735-2099AAC20B57}.Release.Build.0 = Release|Win32
+		{A22AE53B-1F4D-43BC-9D69-30540DB9C2EF}.Debug.ActiveCfg = Debug|Win32
+		{A22AE53B-1F4D-43BC-9D69-30540DB9C2EF}.Debug.Build.0 = Debug|Win32
+		{A22AE53B-1F4D-43BC-9D69-30540DB9C2EF}.Release.ActiveCfg = Release|Win32
+		{A22AE53B-1F4D-43BC-9D69-30540DB9C2EF}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

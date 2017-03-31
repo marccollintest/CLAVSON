@@ -1,0 +1,190 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CSREGISTER          ICON                    "CSRegister.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_CSREGISTER MENU 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "Enregistrement",              32771
+        MENUITEM "&Quitter",                    IDM_EXIT
+    END
+    POPUP "&Aide"
+    BEGIN
+        MENUITEM "À &propos de ...",            IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_CSREGISTER ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  22, 17, 230, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "À propos de"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_CSREGISTER,IDC_MYICON,14,9,16,16
+    LTEXT           "CSRegister Version 1.0",IDC_STATIC,49,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+IDD_DLG_ENREGISTREMENT DIALOGEX 0, 0, 315, 209
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | 
+    WS_POPUP | WS_CAPTION
+CAPTION "Enregistrement"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,177,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,149,177,50,14
+    LTEXT           "Bienvenue dans le programme d'enregistrement de CLAVSON",
+                    IDC_STATIC,7,7,198,13
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,232,14,67,55,
+                    WS_EX_ACCEPTFILES
+    LTEXT           "Ce programme nécessite une clé d'enregistrement pour fonctionner complêtement.",
+                    IDC_STATIC,7,20,220,18
+    LTEXT           "Néanmoins vous pouvez le tester sans limite de durée en demandant saisissant ""DEMO"" comme clé d'enregistrement. En version de démonstration le logiciel s'arrêtera automatique au bout de 100 frappes. ",
+                    IDC_STATIC,7,38,223,38
+    LTEXT           "Pour obtenir une clé d'utilisation, rendez-vous sur le site www.marccollin.com Rubrique ""ClavSon""",
+                    IDC_STATIC,7,76,294,17
+    LTEXT           "Clé d'enregistrement",IDC_STATIC,7,108,77,10
+    EDITTEXT        IDC_EDIT_KEY,95,105,206,12,ES_AUTOHSCROLL
+    LTEXT           "Vous pourrez retrouver cette fenêtre dans le menu de Clavson sous le libellé ""Enregistrement"" ",
+                    IDC_STATIC,7,128,293,27
+    LTEXT           "CLAVSON copyright (c) 2004-2005 Marc Collin",IDC_STATIC,
+                    15,153,163,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_ENREGISTREMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "CSRegister"
+    IDC_CSREGISTER          "CSREGISTER"
+END
+
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

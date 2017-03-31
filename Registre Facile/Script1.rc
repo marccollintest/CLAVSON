@@ -1,0 +1,148 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 312, 241
+STYLE DS_SETFONT | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "ClassRegistre by SheLL"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_BASE,41,9,166,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CHEMIN,41,24,166,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NOM,41,39,166,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Ouvrir la clé",IDC_OUVRIRCLE,209,9,85,13
+    EDITTEXT        IDC_VALEUR,41,59,166,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_REGTYPE,41,94,160,51,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_NVAL,41,108,160,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Modifier la valeur",IDC_MODIFIERVAL,209,95,85,13
+    COMBOBOX        IDC_BASE2,41,141,161,48,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CHEMIN2,41,156,161,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Ouvrir / Créer la clé",IDC_CREERCLE,209,141,85,13
+    PUSHBUTTON      "Supprimer la clé",IDC_SUPRCLE,209,156,85,13
+    COMBOBOX        IDC_REGTYPE2,41,184,166,51,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_NOM2,41,199,166,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NVAL2,41,216,166,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Ajouter la valeur",IDC_AJOUTERVAL,209,184,85,13
+    PUSHBUTTON      "Supprimer la valeur",IDC_SUPRVALEUR,209,199,85,13
+    GROUPBOX        "Ouvrir Clé Registre",IDC_STATIC,4,0,305,79
+    LTEXT           "Base      :",IDC_STATIC,7,10,31,9
+    LTEXT           "Chemin  :",IDC_STATIC,7,25,32,9
+    LTEXT           "Valeur   :",IDC_STATIC,7,58,30,9
+    GROUPBOX        "Modifier La Valeur Actuelle",IDC_STATIC,4,83,305,43
+    LTEXT           "Chemin   :",IDC_STATIC,7,156,31,10
+    GROUPBOX        "Créer Nouvelle Clé",IDC_STATIC,4,131,305,107
+    LTEXT           "Valeur  :",IDC_STATIC,10,108,28,10
+    LTEXT           "Type    :",IDC_STATIC,10,93,27,10
+    LTEXT           "Base      :",IDC_STATIC,7,141,31,9
+    LTEXT           "Nom      :",IDC_STATIC,7,39,30,9
+    GROUPBOX        "Ajouter une valeur",IDC_STATIC,8,172,296,61
+    LTEXT           "Valeur  :",IDC_STATIC,12,216,28,10
+    LTEXT           "Type    :",IDC_STATIC,12,183,27,10
+    LTEXT           "Nom    :",IDC_STATIC,12,199,27,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 309
+        BOTTOMMARGIN, 238
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\Shell.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\soft.manifest"
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
